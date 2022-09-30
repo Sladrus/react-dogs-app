@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "macro-css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="wrapper clear">
+      <div className="logo">
+        <img src="https://i.pinimg.com/originals/be/82/15/be821544fc5f328567cb538f96edb49a.jpg"></img>
+      </div>
+      <div className="welcomePageContent">
+        <h3>Готов завести себе нового друга?</h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          У нас ты найдешь самых милых питомцев. Все они ждут, чтобы стать твоим
+          новым другом.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <button>
+          <p>Начать</p>
+        </button>
+      </div>
     </div>
   );
 }
