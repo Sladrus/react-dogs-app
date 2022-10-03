@@ -1,23 +1,54 @@
 import "./App.css";
-import "macro-css";
+import React from "react";
+import { Route } from "react-router-dom";
+import axios from "axios";
+
+import Header from "./components/Header";
+import Home from "./pages/Home";
+
+import AppContext from "./context";
 
 function App() {
+  const [items, setItems] = React.useState([]);
+  const [categories, setCategories] = React.useState([]);
+  const [searchValue, setSearchValue] = React.useState("");
+
+  React.useEffect(() => {
+    async function fetchData() {
+      try {
+        const itemsResponse = await axios.get(
+          "https://6339a9e166857f698fb9cb3f.mockapi.io/items"
+        );
+        const categoriesResponse = await axios.get(
+          "https://6339a9e166857f698fb9cb3f.mockapi.io/categories"
+        );
+        setItems(itemsResponse.data);
+        setCategories(categoriesResponse.data);
+      } catch (error) {
+        console.error(error);
+      }
+    }
+    fetchData();
+  }, []);
+
+  const onChangeSearchInput = (event) => {
+    setSearchValue(event.target.value);
+  };
+
   return (
-    <div className="wrapper clear">
-      <div className="logo">
-        <img src="https://i.pinimg.com/originals/be/82/15/be821544fc5f328567cb538f96edb49a.jpg"></img>
+    <AppContext.Provider value={{ items, categories }}>
+      <div className="wrapper clear">
+        <Header />
+        <Home
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+          onChangeSearchInput={onChangeSearchInput}
+        />
+        {/* <Route path="favorites" exact>
+        <Favorites />
+      </Route> */}
       </div>
-      <div className="welcomePageContent">
-        <h3>Готов завести себе нового друга?</h3>
-        <p>
-          У нас ты найдешь самых милых питомцев. Все они ждут, чтобы стать твоим
-          новым другом.
-        </p>
-        <button>
-          <p>Начать</p>
-        </button>
-      </div>
-    </div>
+    </AppContext.Provider>
   );
 }
 
