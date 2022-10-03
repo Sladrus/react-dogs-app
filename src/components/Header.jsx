@@ -2,14 +2,14 @@ import React from "react";
 import menu from '../img/menu.png';
 import cart from '../img/cart.png';
 
-function Header() {
+function Header(props) {
   return (
     <header className="header d-flex justify-between align-center">
       <img width={20} height={20} src={menu} alt="Меню" />
 
-      <div className="d-flex flex-row align-center">
+      <div onClick={props.onClickCart} className="d-flex flex-row align-center">
         
-      <img
+      <img 
         width={25}
         height={25}
         src={cart}

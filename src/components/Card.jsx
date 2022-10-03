@@ -10,6 +10,7 @@ function Card({ title, description, image, price, amount }) {
 
         <h5>{title}</h5>
         <p>Кол-во в упаковке: {amount}</p>
+        <p>Размер: В ассортименте</p>
       </div>
 
       <div className="d-flex flex-row justify-between align-center pt-15">

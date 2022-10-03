@@ -7,11 +7,13 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 
 import AppContext from "./context";
+import Drawer from "./components/Drawer";
 
 function App() {
   const [items, setItems] = React.useState([]);
   const [categories, setCategories] = React.useState([]);
   const [searchValue, setSearchValue] = React.useState("");
+  const [cartOpened, setCartOpened] = React.useState(false);
 
   React.useEffect(() => {
     async function fetchData() {
@@ -38,7 +40,8 @@ function App() {
   return (
     <AppContext.Provider value={{ items, categories }}>
       <div className="wrapper clear">
-        <Header />
+        <Drawer onClose={() => setCartOpened(false)} cartOpened={cartOpened} />
+        <Header onClickCart={() => setCartOpened(true)} />
         <Home
           searchValue={searchValue}
           setSearchValue={setSearchValue}
