@@ -21,17 +21,26 @@ function Home({ searchValue, setSearchValue, onChangeSearchInput }) {
       <div className="homeContentTop">
         <h4 className="ml-20">Поиск по товарам</h4>
       </div>
-      <div className="homeContentMiddle mt-10 mb-10">
-        <input onChange={onChangeSearchInput} value={searchValue} width={100} placeholder="Введите название товара" />
+      <div className="mt-10 mb-10">
+        <input
+          onChange={onChangeSearchInput}
+          value={searchValue}
+          width={100}
+          placeholder="Введите название товара"
+        />
       </div>
-      <div className="homeContentBottom mb-10">
-        <h4>Все товары</h4>
+      <div className="homeContentBottom">
+        <h4>
+          {searchValue ? `Поиск по запросу: "${searchValue}"` : "Все товары"}
+        </h4>
       </div>
-      <div className="categoryList d-flex flex-row ">
-        <div></div>
-        {categories &&
-          categories.map((item) => <Category key={item.id} {...item} />)}
-      </div>
+      {!searchValue ? (
+        <div className="categoryList d-flex flex-row mt-10">
+          <div></div>
+          {categories &&
+            categories.map((item) => <Category key={item.id} {...item} />)}
+        </div>
+      ) : undefined}
       <div className="path">
         {/* <p className="mt-10" >... / Коробки / Пакеты </p> */}
       </div>
