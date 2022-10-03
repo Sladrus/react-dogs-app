@@ -14,6 +14,7 @@ function App() {
   const [categories, setCategories] = React.useState([]);
   const [searchValue, setSearchValue] = React.useState("");
   const [cartOpened, setCartOpened] = React.useState(false);
+  const [isLoading, setIsLoading] = React.useState(true);
 
   React.useEffect(() => {
     async function fetchData() {
@@ -24,6 +25,8 @@ function App() {
         const categoriesResponse = await axios.get(
           "https://6339a9e166857f698fb9cb3f.mockapi.io/categories"
         );
+        setIsLoading(false);
+
         setItems(itemsResponse.data);
         setCategories(categoriesResponse.data);
       } catch (error) {
@@ -35,10 +38,12 @@ function App() {
 
   const onChangeSearchInput = (event) => {
     setSearchValue(event.target.value);
-  };
+  }; 
+  console.log(isLoading);
+
 
   return (
-    <AppContext.Provider value={{ items, categories }}>
+    <AppContext.Provider value={{ items, categories, isLoading }}>
       <div className="wrapper clear">
         <Drawer onClose={() => setCartOpened(false)} cartOpened={cartOpened} />
         <Header onClickCart={() => setCartOpened(true)} />
@@ -46,6 +51,7 @@ function App() {
           searchValue={searchValue}
           setSearchValue={setSearchValue}
           onChangeSearchInput={onChangeSearchInput}
+          isLoading={isLoading}
         />
         {/* <Route path="favorites" exact>
         <Favorites />

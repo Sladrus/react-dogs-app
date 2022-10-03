@@ -2,7 +2,6 @@ import React from "react";
 import cart from "../img/cart.png";
 
 function Drawer({ onClose, cartOpened }) {
-  console.log(cartOpened);
   return (
     <div className={!cartOpened ? "overlay" : "overlay overlayVisible "}>
       <div className="drawer">

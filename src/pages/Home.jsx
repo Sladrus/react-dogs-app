@@ -4,20 +4,18 @@ import Category from "../components/Category";
 
 import AppContext from "../context";
 
-function Home({ searchValue, setSearchValue, onChangeSearchInput }) {
+function Home({ isLoading, searchValue, setSearchValue, onChangeSearchInput }) {
   const { items, categories } = React.useContext(AppContext);
   const renderItems = () => {
     const filtredItems = items.filter((item) =>
       item.title.toLowerCase().includes(searchValue.toLowerCase())
     );
-    return (
-      filtredItems &&
-      filtredItems.map((item) => <Card key={item.id} {...item} />)
-    );
+    return (isLoading ? [...Array(8)] : filtredItems).map((item, index) => (
+      <Card key={index} {...item} />
+    ));
   };
   return (
     <div className="homeContent d-flex flex-column align-start justify-center">
-
       <div className="banner"></div>
       <div className="homeContentTop">
         <h4 className="ml-20">Поиск по товарам</h4>
@@ -30,7 +28,7 @@ function Home({ searchValue, setSearchValue, onChangeSearchInput }) {
           placeholder="Введите название товара"
         />
       </div>
-      
+
       <div className="homeContentBottom">
         <h4>
           {searchValue ? `Поиск по запросу: "${searchValue}"` : "Все товары"}
@@ -38,16 +36,12 @@ function Home({ searchValue, setSearchValue, onChangeSearchInput }) {
       </div>
       {!searchValue ? (
         <div className="categoryList d-flex flex-row mt-10">
-          <div></div>
-          {categories &&
-            categories.map((item) => <Category key={item.id} {...item} />)}
+          {(isLoading
+            ? [...Array(5)]
+            : categories).map((item, index) => <Category key={index} {...item} />)}
         </div>
       ) : undefined}
-
-      {/* <div className="path">
-         <p className="mt-10" >... / Коробки / Пакеты </p> 
-      </div> */}
-      <div className="cardList mt-20 d-flex flex-wrap justify-between">
+      <div className="cardList mt-20 d-flex flex-wrap justify-around">
         {renderItems()}
       </div>
     </div>
