@@ -13,11 +13,15 @@ function App() {
   const [items, setItems] = React.useState([]);
   const [categories, setCategories] = React.useState([]);
   const [searchValue, setSearchValue] = React.useState("");
+  const [bigCatValue, setBigCatValue] = React.useState("");
+  const [categoryValue, setCategoryValue] = React.useState("");
+
   const [cartOpened, setCartOpened] = React.useState(false);
   const [isLoading, setIsLoading] = React.useState(true);
 
   React.useEffect(() => {
     async function fetchData() {
+      setIsLoading(true);
       try {
         const itemsResponse = await axios.get(
           "https://6339a9e166857f698fb9cb3f.mockapi.io/items"
@@ -38,12 +42,20 @@ function App() {
 
   const onChangeSearchInput = (event) => {
     setSearchValue(event.target.value);
-  }; 
-  console.log(isLoading);
-
+  };
 
   return (
-    <AppContext.Provider value={{ items, categories, isLoading }}>
+    <AppContext.Provider
+      value={{
+        items,
+        categories,
+        isLoading,
+        bigCatValue,
+        setBigCatValue,
+        categoryValue,
+        setCategoryValue,
+      }}
+    >
       <div className="wrapper clear">
         <Drawer onClose={() => setCartOpened(false)} cartOpened={cartOpened} />
         <Header onClickCart={() => setCartOpened(true)} />

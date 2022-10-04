@@ -1,11 +1,13 @@
 import React from "react";
+import BigCat from "../components/BigCat";
 import Card from "../components/Card";
 import Category from "../components/Category";
 
 import AppContext from "../context";
 
 function Home({ isLoading, searchValue, setSearchValue, onChangeSearchInput }) {
-  const { items, categories } = React.useContext(AppContext);
+  const { items, categories, bigCatValue, setBigCatValue } =
+    React.useContext(AppContext);
   const renderItems = () => {
     const filtredItems = items.filter((item) =>
       item.title.toLowerCase().includes(searchValue.toLowerCase())
@@ -29,19 +31,28 @@ function Home({ isLoading, searchValue, setSearchValue, onChangeSearchInput }) {
         />
       </div>
 
-      <div className="homeContentBottom">
-        <h4>
-          {searchValue ? `Поиск по запросу: "${searchValue}"` : "Все товары"}
-        </h4>
+      <h4 className="ml-20">Категории</h4>
+      <div className="bigCatList d-flex flex-row pl-20">
+        {(isLoading ? [...Array(5)] : categories).map((item, index) => (
+          <BigCat key={index} {...item} />
+        ))}
       </div>
+      <h4 className=" ml-20">
+        {searchValue
+          ? `Поиск по запросу: "${searchValue}"`
+          : bigCatValue
+          ? bigCatValue
+          : "Все товары"}
+      </h4>
+
       {!searchValue ? (
-        <div className="categoryList d-flex flex-row mt-10">
-          {(isLoading
-            ? [...Array(5)]
-            : categories).map((item, index) => <Category key={index} {...item} />)}
+        <div className="categoryList d-flex flex-row">
+          {(isLoading ? [...Array(5)] : categories).map((item, index) => (
+            <Category key={index} {...item} />
+          ))}
         </div>
       ) : undefined}
-      <div className="cardList mt-20 d-flex flex-wrap justify-around">
+      <div className="cardList mt-10 d-flex flex-wrap justify-around">
         {renderItems()}
       </div>
     </div>

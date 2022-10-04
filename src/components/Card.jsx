@@ -12,12 +12,12 @@ function Card({ title, description, image, price, amount }) {
     <>
       {isLoading ? (
           <ContentLoader
-            speed={2}
+            speed={1.5}
             width={130}
             height={265}
             viewBox="0 0 130 265"
             backgroundColor="#f3f3f3"
-            foregroundColor="#ecebeb"
+            foregroundColor="#d6d4d4"
           >
             <rect x="0" y="0" rx="15" ry="15" width="130" height="130" />
             <rect x="0" y="150" rx="5" ry="5" width="130" height="10" />
@@ -27,7 +27,6 @@ function Card({ title, description, image, price, amount }) {
           </ContentLoader>
       ) : (
         <div className="card d-flex flex-column justify-between ">
-          <div>
             <div>
               <img width="100%" src={image} alt="Product" />
               <h5>{title}</h5>
@@ -44,7 +43,6 @@ function Card({ title, description, image, price, amount }) {
                 <span>0</span>
                 <img width={20} height={20} src={plus} alt="plusButton" />
               </div>
-            </div>
           </div>
         </div>
       )}
