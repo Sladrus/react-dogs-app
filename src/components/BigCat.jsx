@@ -38,7 +38,9 @@ function BigCat({ id, title }) {
             src="https://w7.pngwing.com/pngs/166/920/png-transparent-computer-icons-parcel-e-commerce-package-delivery-storage-miscellaneous-angle-furniture-thumbnail.png"
             alt="Big Cat"
           />
-          <p className="mt-10">{title}</p>
+          <div className="d-flex align-center">
+           <p className="mt-10">{title}</p>
+          </div>
         </div>
       )}
     </>

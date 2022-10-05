@@ -27,7 +27,7 @@ body {
 
 .wrapper {
   position: relative;
-
+  max-width: 425px;
   background-color: #ffffff;
   height: 100vh;
   margin: 0 auto;
@@ -35,6 +35,82 @@ body {
   display: flex;
   flex-direction: column;
 
+  .cartTotalBlock {
+    ul {
+      display: block;
+      margin-bottom: 20px !important;
+
+      li {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 20px;
+
+        div {
+          flex: 1;
+          height: 1px;
+          border-bottom: 1px dashed #dfdfdf;
+          position: relative;
+          top: -4px;
+          margin: 0 7px;
+        }
+      }
+    }
+
+    .greenButton {
+      width: 245px;
+
+      &:hover {
+        img {
+          transform: rotate(180deg) translateX(3px);
+        }
+      }
+
+      img {
+        position: relative;
+        top: 1px;
+        transform: rotate(180deg);
+        margin-right: 15px;
+        transition: transform 0.15s ease-in-out;
+      }
+    }
+
+    .greenButton {
+      width: 100%;
+      height: 40px;
+      background: #9dd558;
+      border-radius: 15px;
+      border: 0;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.1s ease-in-out;
+
+      &:disabled {
+        background-color: #bebebe !important;
+        cursor: default;
+      }
+
+      &:hover {
+        background: lighten(#9dd558, 5%);
+      }
+
+      &:active {
+        background: darken(#9dd558, 5%);
+      }
+    }
+  }
+
+
+
+
+  .cartContent {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin-bottom: 20px;
+  }
 
   .overlay {
     position: fixed;
@@ -61,12 +137,13 @@ body {
   }
 
   .drawer {
+    overflow: hidden;
     visibility: visible;
     display: flex;
     flex-direction: column;
     position: fixed;
-    max-width: 80vw;
-    width: 100%;
+    max-width: 425px;
+    width: 80%;
     height: 100%;
     top: 0;
     right: 0;
@@ -110,22 +187,37 @@ body {
 
     }
 
-    input {
-      margin-left: 20px;
-      margin-right: 20px;
-      width: 250px;
+    .search-block {
+      border: 1px solid #f3f3f3;
       border-radius: 10px;
-      border-style: none;
-      border-color: #d6d4d4;
-      display: grid;
-      justify-items: center;
       position: relative;
-      padding: 5px 20px 5px 30px;
-      font-size: 14px;
-      background: url(img/search.svg) no-repeat scroll 10px 6px;
-      background-size: 15px;
-      box-shadow: 1px 0.5px 1px 1.5px #d6d4d4;
+
+      .clear {
+        position: absolute;
+        right: 0;
+        width: 18px;
+        height: 18px;
+        top: 5px;
+        right: 10px;
+      }
+
+      input {
+        margin-left: 20px;
+        width: 250px;
+        border-radius: 10px;
+        border-style: none;
+        border-color: #d6d4d4;
+        display: grid;
+        justify-items: center;
+        position: relative;
+        padding: 5px 20px 5px 30px;
+        font-size: 14px;
+        background: url(img/search.svg) no-repeat scroll 10px 6px;
+        background-size: 15px;
+        box-shadow: 1px 0.5px 1px 1.5px #d6d4d4;
+      }
     }
+
 
 
 
@@ -159,21 +251,28 @@ body {
       flex-wrap: nowrap;
 
       .bigCatCard {
-        width: 100px;
+        min-width: 100px;
         border-radius: 10px;
         box-shadow: 1px 1px 1px 1.5px #d6d4d4;
         padding: 10px 10px 10px 10px;
         transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
 
-        p {
-          margin: 0;
-          padding: 0;
-          text-align: center;
-          font-weight: bold;
-          font-size: 12px;
+        div {
+          flex: auto;
+
+          p {
+            flex: 1 1 auto;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+
+          }
         }
 
         img {
+          top: 0;
           height: 55px;
         }
       }
@@ -223,63 +322,7 @@ body {
       align-self: center;
     }
 
-    .card {
-      cursor: pointer;
-      flex: auto;
-      padding: 10px;
-      width: 150px;
-      border-radius: 20px;
-      margin-top: 5px;
-      margin-left: 5px;
-      margin-right: 5px;
-      margin-bottom: 10px;
-      box-shadow: 1px 2px 2px 2px #d6d4d4;
-      transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
 
-
-
-      .price {
-        text-align: center;
-
-        span {
-          margin-left: 5px;
-          font-size: 12px;
-          font-weight: bold;
-        }
-      }
-
-      .addButton {
-        align-items: center;
-
-        span {
-          font-weight: bold;
-          margin-left: 5px;
-          margin-right: 5px;
-          font-size: 12px;
-          text-align: center;
-        }
-
-        img {
-          padding: 0;
-
-        }
-      }
-
-      img {
-        padding: 20px;
-      }
-
-      h5 {
-        margin: 5px 0 5px 5px;
-      }
-
-      p {
-        margin: 0 0 5px 5px;
-        font-size: 13px;
-      }
-
-
-    }
 
     .path {
       p {
@@ -287,5 +330,63 @@ body {
         font-size: 12px;
       }
     }
+  }
+
+  .card {
+    cursor: pointer;
+    flex: 1 1 auto;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 2px 2px #d6d4d4;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+
+
+    .price {
+      text-align: center;
+
+      span {
+        margin-left: 5px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+
+    .addButton {
+      align-items: center;
+
+      span {
+        font-weight: bold;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+        text-align: center;
+      }
+
+      img {
+        padding: 0;
+
+      }
+    }
+
+    img {
+      padding: 20px;
+    }
+
+    h5 {
+      margin: 5px 0 5px 5px;
+    }
+
+    p {
+      margin: 0 0 5px 5px;
+      font-size: 13px;
+    }
+
+
   }
 }

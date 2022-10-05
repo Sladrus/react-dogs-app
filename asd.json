@@ -1,0 +1,1164 @@
+[
+  {
+    "categories": [
+      {
+        "title": "Коробки для тортов",
+        "id": "1",
+        "items": [
+          {
+            "title": "Коробка для торта и десерта Cake Window White белая с окном",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/dlya-torta/cakewindowwhite/cww-1-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 15,
+            "price": 39
+          },
+          {
+            "title": "Коробка для бенто торта 160x160x110 белая с окном квадратным",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/dlya-torta/fupeco/kt_/01.21/kt110oknokvadratbelaja-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 25,
+            "price": 34
+          },
+          {
+            "title": "Коробка для бенто торта 160x160x110 крафт с окном квадратным",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 25,
+            "price": 31
+          },
+          {
+            "title": "Коробка для кондитерских изделий 140x140x60 белая хром-эрзац",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/dlya-torta/kki/kki-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 200,
+            "price": 6
+          },
+          {
+            "title": "Коробка для кондитерских изделий Square Cut Pastry Window Box крафт",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/dlya-torta/kki/squarecutpastrywindowbox-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 25,
+            "price": 27
+          }
+        ]
+      },
+      {
+        "title": "Коробки для капкейков",
+        "id": "2",
+        "items": [
+          {
+            "title": "Коробка для 1 капкейка «ECO MUF 1» крафт",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/muffin/razmery/ecomuf1-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 25,
+            "price": 22
+          },
+          {
+            "title": "Коробка для 12 капкейков «ECO MUF 12» белая",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/muffin/razmery/ecomuf12white-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 25,
+            "price": 60
+          },
+          {
+            "title": "Коробка для 12 капкейков «ECO MUF 12» крафт",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/muffin/razmery/ecomuf12-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 25,
+            "price": 60
+          },
+          {
+            "title": "Коробка для 12 капкейков белая",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/muffin/pasticciere/cup/cup12-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 100,
+            "price": 90
+          },
+          {
+            "title": "Коробка для 2 капкейков «Fupeco RWinPack» белая",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/dlya-torta/fupeco/fupecomuf2w-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 25,
+            "price": 46
+          }
+        ]
+      },
+      {
+        "title": "Упаовка для сладостей",
+        "id": "3",
+        "items": [
+          {
+            "title": "Коробка для 16 конфет 200x200x30 с окном «Звезда» белая",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/ukonf/rost-pak/16%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%82%20%D0%BE%D0%BA%D0%BD%D0%BE%20%D0%B7%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F%202-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 49
+          },
+          {
+            "title": "Коробка для 16 конфет 200x200x30 с окном белая",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/ukonf/rost-pak/16%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%82%20%D0%BE%D0%BA%D0%BD%D0%BE%20%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F%202-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 49
+          },
+          {
+            "title": "Коробка для 9 конфет 155x155x30 с окном «Сердце» белая",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/ukonf/rukarton/9konfetoknoserdce-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 50,
+            "price": 42
+          }
+        ]
+      },
+      {
+        "title": "Подложки для торта и ажурные салфетки",
+        "id": "4",
+        "items": [
+          {
+            "title": "Подложка для торта квадратная усиленная 2,5 (золото)",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/podlozhka/new/2.5kvadratzoloto-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 50
+          },
+          {
+            "title": "Подложка для торта круглая 0,8 (белая)",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/podlozhka/tolshina08/1001%2808%29-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 100,
+            "price": 1
+          },
+          {
+            "title": "Подложка для торта квадратная 0,8 (золото)",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/podlozhka/new/0.8kvadratzoloto-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 100,
+            "price": 5
+          }
+        ]
+      },
+      {
+        "title": "Формы бумажные",
+        "id": "5",
+        "items": [
+          {
+            "title": "Бумажная форма «Маффин» ламинированная, палитра цветов",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/formy-bumazhnye/pastfb/mufbelyj-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 100,
+            "price": 2
+          },
+          {
+            "title": "Бумажная форма «Маффин», палитра цветов",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/formy-bumazhnye/pastfb/muffinbelyj-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 100,
+            "price": 2
+          },
+          {
+            "title": "Бумажная форма для тарталеток круглая 10 коричневая",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/formy-bumazhnye/new/10a50br-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 1000,
+            "price": 1
+          }
+        ]
+      },
+      {
+        "title": "Ленты атласные",
+        "id": "6",
+        "items": [
+          {
+            "title": "Лента атласная бирюзовая",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/lenty/atlasnye/atlastberz-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 1,
+            "price": 59
+          },
+          {
+            "title": "Лента атласная желтая",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/lenty/atlasnye/14e17362b8089736a7e2884d377f90d1-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 1,
+            "price": 59
+          },
+          {
+            "title": "Лента атласная зеленая",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/konditerka/lenty/atlasnye/atlastgren-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 1,
+            "price": 59
+          }
+        ]
+      },
+      {
+        "title": "Пергамент коричневый силиконизированный в ролике «У нас дома» 100 метров",
+        "id": "7",
+        "items": [
+          {
+            "title": "Что-то еще",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/soputka/pergament-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 1,
+            "price": 729
+          },
+          {
+            "title": "Пергамент силиконизированный в ролике «Nature Extra» 100 метров",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/6003615744-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 1,
+            "price": 469
+          },
+          {
+            "title": "Пленка пищевая 7 мкм",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/soputka/plenka-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 12,
+            "price": 179
+          }
+        ]
+      },
+      {
+        "title": "Мешки кондитерские",
+        "id": "8",
+        "items": [
+          {
+            "title": "Мешки кондитерские «Pasticciere» в роликах",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/92051-700x700-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 100,
+            "price": 749
+          },
+          {
+            "title": "Мешок кондитерский",
+            "image": "https://ижпакмаркет.рф/image/cache/catalog/tovar/meshokkonditerskij36smsvetlo-goluboj-228x228.jpg",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 1,
+            "price": 5
+          }
+        ]
+      }
+    ],
+    "title": "Кондитерская упаковка",
+    "id": "1"
+  },
+  {
+    "categories": [
+      {
+        "title": "Пищевая упаковка",
+        "id": "1",
+        "items": [
+          {
+            "title": "Коробка с пакетами",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальаня коробка",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологическая коробка",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Карсивая коробка",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто коробка",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Универсальные коробки",
+        "id": "2",
+        "items": [
+          {
+            "title": "Пакет с пакетами",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный пакет",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологический пакет",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивый пакет",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто пакет",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Коробки для маркетплейсов",
+        "id": "3",
+        "items": [
+          {
+            "title": "Много палочек",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Деревянные палочки",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологическе палочки",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивые палочки",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто палочка",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Супницы",
+        "id": "4",
+        "items": [
+          {
+            "title": "Пакет с перчатками",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный перчатка",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологический перчатка",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивый перчатка",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто перчатка",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Бумажные пакеты",
+        "id": "5",
+        "items": [
+          {
+            "title": "Пакет с Стаканы",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный Стаканы",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологический Стаканы",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивый Стаканы",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто Стаканы",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Бумажные стаканы",
+        "id": "6",
+        "items": [
+          {
+            "title": "Что-то еще",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный Что-то еще",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Бумажные салфетки",
+        "id": "7",
+        "items": [
+          {
+            "title": "Что-то еще",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный Что-то еще",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      }
+    ],
+    "title": "Эко-упаковка",
+    "id": "2"
+  },
+  {
+    "categories": [
+      {
+        "title": "Перчатки",
+        "id": "1",
+        "items": [
+          {
+            "title": "Коробка с пакетами",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальаня коробка",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологическая коробка",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Карсивая коробка",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто коробка",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Шапочки",
+        "id": "2",
+        "items": [
+          {
+            "title": "Пакет с пакетами",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный пакет",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологический пакет",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивый пакет",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто пакет",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Фартуки",
+        "id": "3",
+        "items": [
+          {
+            "title": "Много палочек",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Деревянные палочки",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологическе палочки",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивые палочки",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто палочка",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Халаты",
+        "id": "4",
+        "items": [
+          {
+            "title": "Пакет с перчатками",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный перчатка",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологический перчатка",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивый перчатка",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто перчатка",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Нарукавники",
+        "id": "5",
+        "items": [
+          {
+            "title": "Пакет с Стаканы",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный Стаканы",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологический Стаканы",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивый Стаканы",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто Стаканы",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Комбинезоны",
+        "id": "6",
+        "items": [
+          {
+            "title": "Что-то еще",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный Что-то еще",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      }
+    ],
+    "title": "Одноразовая одежда",
+    "id": "3"
+  },
+  {
+    "categories": [
+      {
+        "title": "Креманки",
+        "id": "1",
+        "items": [
+          {
+            "title": "Коробка с пакетами",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальаня коробка",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологическая коробка",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Карсивая коробка",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто коробка",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Соусники",
+        "id": "2",
+        "items": [
+          {
+            "title": "Пакет с пакетами",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный пакет",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологический пакет",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивый пакет",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто пакет",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Бокалы, стаканчики",
+        "id": "3",
+        "items": [
+          {
+            "title": "Много палочек",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Деревянные палочки",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологическе палочки",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивые палочки",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто палочка",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Вилки, ложки, ножи",
+        "id": "4",
+        "items": [
+          {
+            "title": "Пакет с перчатками",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный перчатка",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологический перчатка",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивый перчатка",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто перчатка",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "БОПП пакты",
+        "id": "5",
+        "items": [
+          {
+            "title": "Пакет с Стаканы",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный Стаканы",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Экологический Стаканы",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Красивый Стаканы",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Просто Стаканы",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      },
+      {
+        "title": "Контейнеры из полимеров",
+        "id": "6",
+        "items": [
+          {
+            "title": "Что-то еще",
+            "image": "https://findicons.com/files/icons/1180/sticker_1/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "1",
+            "amount": 10,
+            "price": 10
+          },
+          {
+            "title": "Универсальный Что-то еще",
+            "image": "https://findicons.com/files/icons/727/leopard/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "2",
+            "amount": 10,
+            "price": 20
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://findicons.com/files/icons/1233/somatic_rebirth_apps/256/package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "3",
+            "amount": 10,
+            "price": 14
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Crystal_Project_Package.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "4",
+            "amount": 10,
+            "price": 12
+          },
+          {
+            "title": "Что-то еще",
+            "image": "https://images.vexels.com/media/users/3/146406/isolated/lists/74c5d1d522ffd84f91d33c28ca921f0d-long-box-with-package-signs.png",
+            "description": "Кол-во в упаковке: 15 шт",
+            "id": "5",
+            "amount": 10,
+            "price": 10
+          }
+        ]
+      }
+    ],
+    "title": "Одноразовая посуда и упаковка из полимеров",
+    "id": "4"
+  }
+]
