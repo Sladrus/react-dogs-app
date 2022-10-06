@@ -66,7 +66,7 @@ function Home({ isLoading, searchValue, setSearchValue, onChangeSearchInput }) {
       <div className="homeContentTop">
         <h4 className="ml-20">Поиск по товарам</h4>
       </div>
-      <div className="search-block d-flex align-center mt-10 mb-10">
+      <div className="search-block d-flex align-center mt-15 mb-15">
         <input
           onChange={onChangeSearchInput}
           value={searchValue}
@@ -76,7 +76,7 @@ function Home({ isLoading, searchValue, setSearchValue, onChangeSearchInput }) {
         {searchValue && (
           <img
             onClick={() => setSearchValue("")}
-            className="clear cu-p"
+            className="clear cu-p mr-15"
             src={close}
             alt="Clear"
           />

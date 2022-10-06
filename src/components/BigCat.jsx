@@ -30,8 +30,8 @@ function BigCat({ id, title }) {
           onClick={onClick}
           className={
             bigCatValue === title
-              ? "bigCatCard d-flex flex-column align-center mt-10 mr-10 mb-10 bigCatCurrent"
-              : "bigCatCard d-flex flex-column align-center mt-10 mr-10 mb-10"
+              ? "bigCatCard d-flex flex-column align-center mt-15 mr-10 mb-15 bigCatCurrent"
+              : "bigCatCard d-flex flex-column align-center mt-15 mr-10 mb-15"
           }
         >
           <img

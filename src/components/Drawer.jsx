@@ -2,6 +2,7 @@ import React from "react";
 import close from "../img/close.png";
 import AppContext from "../context";
 import Card from "./Card";
+import CartItem from "./CartItem";
 
 function Drawer({ onClose, cartOpened }) {
   const { isLoading, cartItems, plusToCart, minusToCart } =
@@ -14,12 +15,12 @@ function Drawer({ onClose, cartOpened }) {
   return (
     <div className={!cartOpened ? "overlay" : "overlay overlayVisible "}>
       <div className="drawer">
-        <h4 className="d-flex justify-between mb-20 align-center">
+        <h4 className="d-flex justify-between pb-20 align-center">
           Корзина <img onClick={onClose} src={close} alt="Close" />
         </h4>
-        <div className="cartContent flex">
+        <div className="cartContent flex"> 
           {cartItems.map((item) => (
-            <Card {...item} />
+            <CartItem {...item} />
           ))}
         </div>
         <div className="cartTotalBlock">
