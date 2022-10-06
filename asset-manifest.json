@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-dogs-app/static/css/main.6b8b6039.css",
+    "main.css": "/react-dogs-app/static/css/main.a1c31cfe.css",
     "main.js": "/react-dogs-app/static/js/main.1d1e4e8a.js",
     "static/js/787.652dc0de.chunk.js": "/react-dogs-app/static/js/787.652dc0de.chunk.js",
     "static/media/heart.svg": "/react-dogs-app/static/media/heart.de70e8ece0ebf909b3f1d1b26474f00a.svg",
     "index.html": "/react-dogs-app/index.html",
     "static/media/search.svg": "/react-dogs-app/static/media/search.e0b696f327468be32ac4.svg",
-    "main.6b8b6039.css.map": "/react-dogs-app/static/css/main.6b8b6039.css.map",
+    "main.a1c31cfe.css.map": "/react-dogs-app/static/css/main.a1c31cfe.css.map",
     "main.1d1e4e8a.js.map": "/react-dogs-app/static/js/main.1d1e4e8a.js.map",
     "787.652dc0de.chunk.js.map": "/react-dogs-app/static/js/787.652dc0de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b8b6039.css",
+    "static/css/main.a1c31cfe.css",
     "static/js/main.1d1e4e8a.js"
   ]
 }
