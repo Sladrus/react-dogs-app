@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 
 import AppContext from "./context";
 import Drawer from "./components/Drawer";
+import Detail from "./components/Detail";
 
 function App() {
   const [items, setItems] = React.useState([]);
@@ -17,6 +18,10 @@ function App() {
   const [categoryValue, setCategoryValue] = React.useState("");
 
   const [cartOpened, setCartOpened] = React.useState(false);
+  const [detail, setDetail] = React.useState({});
+
+  const [detailOpened, setDetailOpened] = React.useState(false);
+
   const [isLoading, setIsLoading] = React.useState(true);
 
   React.useEffect(() => {
@@ -61,9 +66,8 @@ function App() {
         setCartItems((prev) => prev.filter((item) => item.title !== obj.title));
       }
     }
-    console.log(cartItems);
   };
-  console.log(cartItems);
+  console.log(detail);
 
   return (
     <AppContext.Provider
@@ -78,10 +82,14 @@ function App() {
         setCartItems,
         plusToCart,
         minusToCart,
+        detailOpened,
+        setDetailOpened,
+        detail, setDetail
       }}
     >
       <div className="wrapper clear">
         <Drawer onClose={() => setCartOpened(false)} cartOpened={cartOpened} />
+        <Detail onClose={() => setDetailOpened(false)}/>
         <Header onClickCart={() => setCartOpened(true)} />
         <Home
           searchValue={searchValue}

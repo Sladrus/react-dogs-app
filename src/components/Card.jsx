@@ -5,12 +5,25 @@ import minus from "../img/minus.png";
 import plus from "../img/plus.png";
 
 function Card({ id, title, image, price, amount, count }) {
-  const { isLoading, cartItems, plusToCart, minusToCart} = React.useContext(AppContext);
-  const obj = { id, parentId: id, title, image, price, amount, count};
-  
+  const {
+    isLoading,
+    cartItems,
+    plusToCart,
+    minusToCart,
+    setDetailOpened,
+    detail,
+    setDetail,
+  } = React.useContext(AppContext);
+  const obj = { id, parentId: id, title, image, price, amount, count };
+
+  const openDetail = (obj) => {
+    setDetailOpened(true);
+    console.log(obj);
+    setDetail(obj);
+  };
 
   // const minusToCart = (obj) => {
-    const findItem = cartItems.find((item) => item.title === obj.title);
+  const findItem = cartItems.find((item) => item.title === obj.title);
 
   //   if (findItem) {
   //     if (findItem.count === 0) {
@@ -42,7 +55,7 @@ function Card({ id, title, image, price, amount, count }) {
         </ContentLoader>
       ) : (
         <div className="card d-flex flex-column justify-between ">
-          <div>
+          <div onClick={() => openDetail(obj)} className="cardContent">
             <img width="100%" src={image} alt="Product" />
             <h5>{title}</h5>
             <p>Кол-во в упаковке: {amount}</p>
@@ -61,7 +74,9 @@ function Card({ id, title, image, price, amount, count }) {
                 src={minus}
                 alt="minusButton"
               />
-              <span className="ml-10 mr-10">{findItem ? findItem.count : 0}</span>
+              <span className="ml-10 mr-10">
+                {findItem ? findItem.count : 0}
+              </span>
               <img
                 onClick={() => plusToCart(obj)}
                 width={20}

@@ -1,7 +1,8 @@
 import React from "react";
 import close from "../img/close.png";
+import cart from "../img/cart.png";
+
 import AppContext from "../context";
-import Card from "./Card";
 import CartItem from "./CartItem";
 
 function Drawer({ onClose, cartOpened }) {
@@ -16,9 +17,12 @@ function Drawer({ onClose, cartOpened }) {
     <div className={!cartOpened ? "overlay" : "overlay overlayVisible "}>
       <div className="drawer">
         <h4 className="d-flex justify-between pb-20 align-center">
-          Корзина <img onClick={onClose} src={close} alt="Close" />
+          <div className="d-flex flex-row align-center">
+            <img className="mr-5" width={24} src={cart} /> Корзина
+          </div>
+          <img onClick={onClose} src={close} alt="Close" />
         </h4>
-        <div className="cartContent flex"> 
+        <div className="cartContent flex">
           {cartItems.map((item) => (
             <CartItem {...item} />
           ))}
