@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-dogs-app/static/css/main.d9c47ca6.css",
-    "main.js": "/react-dogs-app/static/js/main.78fc7b6f.js",
+    "main.js": "/react-dogs-app/static/js/main.bc32bdf5.js",
     "static/js/787.652dc0de.chunk.js": "/react-dogs-app/static/js/787.652dc0de.chunk.js",
     "static/media/heart.svg": "/react-dogs-app/static/media/heart.de70e8ece0ebf909b3f1d1b26474f00a.svg",
     "index.html": "/react-dogs-app/index.html",
     "static/media/search.svg": "/react-dogs-app/static/media/search.e0b696f327468be32ac4.svg",
     "main.d9c47ca6.css.map": "/react-dogs-app/static/css/main.d9c47ca6.css.map",
-    "main.78fc7b6f.js.map": "/react-dogs-app/static/js/main.78fc7b6f.js.map",
+    "main.bc32bdf5.js.map": "/react-dogs-app/static/js/main.bc32bdf5.js.map",
     "787.652dc0de.chunk.js.map": "/react-dogs-app/static/js/787.652dc0de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9c47ca6.css",
-    "static/js/main.78fc7b6f.js"
+    "static/js/main.bc32bdf5.js"
   ]
 }
