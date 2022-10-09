@@ -22,7 +22,7 @@ function App() {
   const [detailOpened, setDetailOpened] = React.useState(false);
   const [isLoading, setIsLoading] = React.useState(true);
 
-  const { tg } = useTelegram();
+  const { tg, user } = useTelegram();
 
   React.useEffect(() => {
     tg?.ready();
@@ -77,6 +77,7 @@ function App() {
   return (
     <AppContext.Provider
       value={{
+        user,
         isLoading,
         items,
         typeValue,

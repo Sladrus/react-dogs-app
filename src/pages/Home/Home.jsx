@@ -8,7 +8,7 @@ import AppContext from "../../context";
 import "./Home.scss";
 
 function Home({ onChangeSearchInput, searchValue, setSearchValue }) {
-  const { items, typeValue, categoryValue } =
+  const { items, typeValue, categoryValue, user } =
     React.useContext(AppContext);
   const filtredType =
     items &&
@@ -16,8 +16,8 @@ function Home({ onChangeSearchInput, searchValue, setSearchValue }) {
       return element.title === typeValue;
     });
   const filteredCategory =
-  filtredType &&
-  filtredType[0]?.categories?.filter((element) => {
+    filtredType &&
+    filtredType[0]?.categories?.filter((element) => {
       return element.title === categoryValue;
     });
 
@@ -25,6 +25,7 @@ function Home({ onChangeSearchInput, searchValue, setSearchValue }) {
 
   return (
     <div className="home d-flex flex-column align-start justify-center">
+      <h4 className="ml-20 mt-20">Добро пожаловать, {user?.username}</h4>
       <div className="banner"></div>
       <div>
         <h4 className="ml-20">Поиск по товарам</h4>
