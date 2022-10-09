@@ -1,8 +1,9 @@
 import React from "react";
 import ContentLoader from "react-content-loader";
-import AppContext from "../context";
-import minus from "../img/minus.png";
-import plus from "../img/plus.png";
+import AppContext from "../../context";
+import minus from "../../img/minus.png";
+import plus from "../../img/plus.png";
+import "./Card.scss";
 
 function Card({ id, title, image, price, amount, count }) {
   const {
@@ -11,30 +12,16 @@ function Card({ id, title, image, price, amount, count }) {
     plusToCart,
     minusToCart,
     setDetailOpened,
-    detail,
     setDetail,
   } = React.useContext(AppContext);
   const obj = { id, parentId: id, title, image, price, amount, count };
 
   const openDetail = (obj) => {
     setDetailOpened(true);
-    console.log(obj);
     setDetail(obj);
   };
 
-  // const minusToCart = (obj) => {
   const findItem = cartItems.find((item) => item.title === obj.title);
-
-  //   if (findItem) {
-  //     if (findItem.count === 0) {
-  //       obj.count = findItem.count - 1;
-  //       setCartItems((prev) => prev.filter((item) => item.title !== obj.title));
-  //     } else {
-  //       obj.count = findItem.count - 1;
-  //       setCartItems([obj]);
-  //     }
-  //   }
-  // };
 
   return (
     <>

@@ -1,0 +1,46 @@
+.home {
+
+    .banner {
+        margin: 20px;
+        align-self: center;
+        height: 100px;
+        width: 90%;
+        border-radius: 10px;
+        background-color: #dbdbdb;
+    }
+
+    .search-block {
+        border-radius: 10px;
+        position: relative;
+        width: 100%;
+
+        .clear {
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            top: 5px;
+            right: 10px;
+        }
+
+        input {
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 100%;
+            border-radius: 10px;
+            border-style: none;
+            display: grid;
+            justify-items: center;
+            position: relative;
+            padding: 5px 20px 5px 30px;
+            font-size: 14px;
+            background: url(../../img/search.svg) no-repeat scroll 10px 6px;
+            background-size: 15px;
+            box-shadow: 1px 0.5px 3px 1.5px #d6d4d4;
+        }
+    }
+
+    h4,
+    h2 {
+        margin: 0;
+    }
+}

@@ -1,12 +1,13 @@
 import React from "react";
 import ContentLoader from "react-content-loader";
-import AppContext from "../context";
+import AppContext from "../../context";
+import './Type.scss'
 
-function BigCat({ id, title }) {
-  const { isLoading, bigCatValue, setBigCatValue, setCategoryValue } =
+function Type({ id, title, image }) {
+  const { isLoading, typeValue, setTypeValue, setCategoryValue } =
     React.useContext(AppContext);
   const onClick = () => {
-    setBigCatValue(title);
+    setTypeValue(title);
     setCategoryValue("");
   };
 
@@ -29,17 +30,14 @@ function BigCat({ id, title }) {
         <div
           onClick={onClick}
           className={
-            bigCatValue === title
-              ? "bigCatCard d-flex flex-column align-center mt-15 mr-10 mb-15 bigCatCurrent"
-              : "bigCatCard d-flex flex-column align-center mt-15 mr-10 mb-15"
+            typeValue === title
+              ? "typeItem d-flex flex-column align-center mt-15 mr-10 mb-15 typeItemCurrent"
+              : "typeItem d-flex flex-column align-center mt-15 mr-10 mb-15"
           }
         >
-          <img
-            src="https://w7.pngwing.com/pngs/166/920/png-transparent-computer-icons-parcel-e-commerce-package-delivery-storage-miscellaneous-angle-furniture-thumbnail.png"
-            alt="Big Cat"
-          />
+          <img src={image} alt="Big Cat" />
           <div className="d-flex align-center">
-           <p className="mt-10">{title}</p>
+            <p className="mt-10">{title}</p>
           </div>
         </div>
       )}
@@ -47,4 +45,4 @@ function BigCat({ id, title }) {
   );
 }
 
-export default BigCat;
+export default Type;

@@ -1,6 +1,7 @@
 import React from "react";
 import ContentLoader from "react-content-loader";
-import AppContext from "../context";
+import AppContext from "../../context";
+import './Category.scss'
 
 function Category({ title }) {
   const { isLoading, categoryValue, setCategoryValue } =

@@ -1,13 +1,14 @@
 import React from "react";
-import menu from "../img/menu.png";
-import cart from "../img/cart.png";
-import heart from "../img/heart.svg";
-import AppContext from "../context";
+import menu from "../../img/menu.png";
+import cart from "../../img/cart.png";
+import heart from "../../img/heart.svg";
+import "./Header.scss";
 
-function Header(props) {
-  const { cartItems } = React.useContext(AppContext);
-
-  const totalPrice = cartItems.reduce((sum, obj) => obj.price * obj.count + sum, 0);
+const Header = ({cartItems, onClickCart}) => {
+  const totalPrice = cartItems.reduce(
+    (sum, obj) => obj.price * obj.count + sum,
+    0
+  );
 
   return (
     <header className="header d-flex justify-between align-center">
@@ -20,9 +21,8 @@ function Header(props) {
           src={heart}
           alt="Избранное"
         />
-
         <div
-          onClick={props.onClickCart}
+          onClick={onClickCart}
           className="d-flex flex-row align-center"
         >
           <img width={25} height={25} src={cart} alt="Корзина" />
@@ -31,6 +31,6 @@ function Header(props) {
       </div>
     </header>
   );
-}
+};
 
 export default Header;

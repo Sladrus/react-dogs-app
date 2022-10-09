@@ -1,18 +1,11 @@
 import React from "react";
-import close from "../img/close.png";
-import AppContext from "../context";
-import minus from "../img/minus.png";
-import plus from "../img/plus.png";
+import minus from "../../img/minus.png";
+import plus from "../../img/plus.png";
+import close from "../../img/close.png";
+import './Detail.scss'
 
-function Detail({ onClose }) {
-  const {
-    isLoading,
-    cartItems,
-    detailOpened,
-    detail,
-    plusToCart,
-    minusToCart,
-  } = React.useContext(AppContext);
+function Detail({ onClose, detailOpened, cartItems, detail, plusToCart,
+  minusToCart,}) {
 
   const findItem = cartItems.find((item) => item.title === detail.title);
 
@@ -20,7 +13,7 @@ function Detail({ onClose }) {
     <div className={!detailOpened ? "overlay" : "overlay overlayVisible "}>
       <div className="detail">
         <h4 className="d-flex justify-between pb-20 align-center">
-          {detail.title} <img onClick={onClose} src={close} alt="Close" />
+          {detail.title} <img className="ml-20" onClick={onClose} src={close} alt="Close" />
         </h4>
         <div className="detailContent flex">
           <img className="p-20" src={detail.image} alt="DetailImage" />
@@ -64,8 +57,7 @@ function Detail({ onClose }) {
             <div className="addButton d-flex flex-row align-center">
               <img
                 onClick={() => minusToCart(detail)}
-                width={20}
-                height={20}
+
                 src={minus}
                 alt="minusButton"
               />
@@ -74,8 +66,7 @@ function Detail({ onClose }) {
               </span>
               <img
                 onClick={() => plusToCart(detail)}
-                width={20}
-                height={20}
+
                 src={plus}
                 alt="plusButton"
               />

@@ -1,27 +1,17 @@
 import React from "react";
 import ContentLoader from "react-content-loader";
-import AppContext from "../context";
-import minus from "../img/minus.png";
-import plus from "../img/plus.png";
-import close from "../img/close.png";
+import AppContext from "../../context";
+import minus from "../../img/minus.png";
+import plus from "../../img/plus.png";
+import close from "../../img/close.png";
+import "./CartItem.scss";
 
 function CartItem({ id, title, image, price, amount, count }) {
   const { isLoading, cartItems, plusToCart, minusToCart, setCartItems } =
     React.useContext(AppContext);
   const obj = { id, parentId: id, title, image, price, amount, count };
 
-  // const minusToCart = (obj) => {
   const findItem = cartItems.find((item) => item.title === obj.title);
-
-  //   if (findItem) {
-  //     if (findItem.count === 0) {
-  //       obj.count = findItem.count - 1;
-  //       setCartItems((prev) => prev.filter((item) => item.title !== obj.title));
-  //     } else {
-  //       obj.count = findItem.count - 1;
-  //       setCartItems([obj]);
-  //     }
-  //   }
 
   const deleteItem = (obj) => {
     setCartItems((prev) => prev.filter((item) => item.title !== obj.title));

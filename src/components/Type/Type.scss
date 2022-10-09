@@ -1,0 +1,31 @@
+.typeItem {
+    color: #919191;
+    min-width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 0.5px 1.5px 1.5px #d6d4d4;
+    padding: 10px 10px 10px 10px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    p {
+        flex: 1 1 auto;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    img {
+        top: 0;
+        height: 55px;
+    }
+
+
+}
+
+
+.typeItemCurrent {
+    transform: translateY(-5px);
+    color: black;
+    box-shadow: 1px 1px 1px 1.5px #d6d4d4;
+}
